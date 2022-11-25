@@ -1,0 +1,7 @@
+rails generate model Message title:string text:string
+
+greeting_1 = Message.create(title: 'My first greeting', text: 'This is the first db record')
+greeting_2 = Message.create(title: 'My second greeting', text: 'This is the second db record')
+greeting_3 = Message.create(title: 'My third greeting', text: 'This is the third db record')
+greeting_4 = Message.create(title: 'My forth greeting', text: 'This is the forth db record')
+greeting_5 = Message.create(title: 'My fifth greeting', text: 'This is the fifth db record')
